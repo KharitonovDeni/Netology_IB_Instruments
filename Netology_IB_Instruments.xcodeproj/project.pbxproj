@@ -10,9 +10,12 @@
 		7EFBAA1B2964977F00C67BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBAA1A2964977F00C67BF0 /* AppDelegate.swift */; };
 		7EFBAA1D2964977F00C67BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBAA1C2964977F00C67BF0 /* SceneDelegate.swift */; };
 		7EFBAA1F2964977F00C67BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBAA1E2964977F00C67BF0 /* ViewController.swift */; };
-		7EFBAA222964977F00C67BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBAA202964977F00C67BF0 /* Main.storyboard */; };
 		7EFBAA242964977F00C67BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBAA232964977F00C67BF0 /* Assets.xcassets */; };
 		7EFBAA272964977F00C67BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBAA252964977F00C67BF0 /* LaunchScreen.storyboard */; };
+		7EFBAA31296497A000C67BF0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBAA2E296497A000C67BF0 /* ProfileView.swift */; };
+		7EFBAA32296497A000C67BF0 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBAA2F296497A000C67BF0 /* ProfileView.xib */; };
+		7EFBAA33296497A000C67BF0 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBAA30296497A000C67BF0 /* Profile.storyboard */; };
+		7EFBAA352964984700C67BF0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBAA342964984700C67BF0 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		7EFBAA1A2964977F00C67BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EFBAA1C2964977F00C67BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7EFBAA1E2964977F00C67BF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7EFBAA212964977F00C67BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EFBAA232964977F00C67BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EFBAA262964977F00C67BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EFBAA282964977F00C67BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFBAA2E296497A000C67BF0 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7EFBAA2F296497A000C67BF0 /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		7EFBAA30296497A000C67BF0 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		7EFBAA342964984700C67BF0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		7EFBAA0E2964977F00C67BF0 = {
 			isa = PBXGroup;
 			children = (
+				7EFBAA342964984700C67BF0 /* .gitignore */,
 				7EFBAA192964977F00C67BF0 /* Netology_IB_Instruments */,
 				7EFBAA182964977F00C67BF0 /* Products */,
 			);
@@ -59,7 +66,9 @@
 				7EFBAA1A2964977F00C67BF0 /* AppDelegate.swift */,
 				7EFBAA1C2964977F00C67BF0 /* SceneDelegate.swift */,
 				7EFBAA1E2964977F00C67BF0 /* ViewController.swift */,
-				7EFBAA202964977F00C67BF0 /* Main.storyboard */,
+				7EFBAA2E296497A000C67BF0 /* ProfileView.swift */,
+				7EFBAA30296497A000C67BF0 /* Profile.storyboard */,
+				7EFBAA2F296497A000C67BF0 /* ProfileView.xib */,
 				7EFBAA232964977F00C67BF0 /* Assets.xcassets */,
 				7EFBAA252964977F00C67BF0 /* LaunchScreen.storyboard */,
 				7EFBAA282964977F00C67BF0 /* Info.plist */,
@@ -125,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFBAA352964984700C67BF0 /* .gitignore in Resources */,
+				7EFBAA32296497A000C67BF0 /* ProfileView.xib in Resources */,
 				7EFBAA272964977F00C67BF0 /* LaunchScreen.storyboard in Resources */,
+				7EFBAA33296497A000C67BF0 /* Profile.storyboard in Resources */,
 				7EFBAA242964977F00C67BF0 /* Assets.xcassets in Resources */,
-				7EFBAA222964977F00C67BF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFBAA31296497A000C67BF0 /* ProfileView.swift in Sources */,
 				7EFBAA1F2964977F00C67BF0 /* ViewController.swift in Sources */,
 				7EFBAA1B2964977F00C67BF0 /* AppDelegate.swift in Sources */,
 				7EFBAA1D2964977F00C67BF0 /* SceneDelegate.swift in Sources */,
@@ -147,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7EFBAA202964977F00C67BF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EFBAA212964977F00C67BF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7EFBAA252964977F00C67BF0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +295,7 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +322,7 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
