@@ -15,7 +15,7 @@ class ProfileView: UIView {
     @IBOutlet weak var label3: UILabel!
     @IBOutlet weak var text: UITextView!
     
-    }
+}
     
     
     /*
